@@ -1,13 +1,50 @@
-# Estimation Module
+# LabRI Tool
 
-The **LabRI method** is an adaptive and multi-criteria approach for the **indirect estimation and verification** of reference intervals. It integrates data cleaning, data transformation, clustering techniques, and applies the `refineR`, `reflimR`, and **Expectation-Maximization (EM)** algorithms. The method combines **parametric and non-parametric percentile** approaches to estimate population reference intervals, depending on the number of clusters identified in the truncated distribution.
+## Introduction
 
-## Characteristics of the LabRI Method
+The **LabRI Tool** is an RMarkdown-based application designed to streamline the estimation and verification of reference intervals in clinical laboratories. It leverages the **LabRI method**, a comprehensive approach structured into two main modules:
+
+- **Estimation Module**: Focuses on the adaptive and multi-criteria estimation of reference intervals using data cleaning, transformation, and clustering techniques, supported by algorithms like `refineR`, `reflimR`, and Expectation-Maximization (EM).
+  
+- **Verification Module**: Ensures the validity of estimated reference intervals through a three-level analysis, which evaluates statistical uncertainty, equivalence, and concordance, making the intervals reliable for clinical application.
+
+## A. Estimation Module
+
+The **LabRI method** provides an adaptive and multi-criteria approach for the **indirect estimation** of reference intervals. This module integrates data cleaning, transformation, and clustering techniques, utilizing the `refineR`, `reflimR`, and **EM algorithms**. By combining **parametric and non-parametric percentile** approaches, the method estimates population reference intervals based on the number of clusters in the truncated distribution.
+
+### Characteristics of the LabRI Method
 
 - **Adaptive**: 
-  - Adjusts its application based on the structure and characteristics of the data, using different cleaning and transformation techniques as needed.
-  - Applies the **Centroid of Windsorized Reference Limits** method using `refineR` and `reflimR` if the data distribution has more than one cluster for reference interval estimation.
-  - If there is only one cluster, the expectation-maximization algorithm is used with both parametric and non-parametric approaches to obtain the best reference interval estimate.
+  - Adjusts dynamically based on data structure and characteristics, applying appropriate cleaning and transformation techniques.
+  - Uses the **Centroid of Windsorized Reference Limits** method with `refineR` and `reflimR` for multi-cluster distributions.
+  - For single-cluster distributions, the expectation-maximization algorithm applies parametric and non-parametric methods to derive the best reference interval estimate.
 
 - **Multi-criteria**:
-  - Considers multiple criteria and methods for the estimation and verification of reference intervals, ensuring a robust and comprehensive analysis.
+  - Incorporates multiple criteria and methods for robust and comprehensive estimation and verification of reference intervals.
+
+## B. Verification Module
+
+To ensure reliability in clinical practice, it is crucial for laboratories to verify their reference intervals (RIs) before routine application. This verification is especially important for RIs derived through indirect methods.
+
+### Structure of the Verification Module
+
+The **Verification Module** performs a **three-level analysis** to assess whether the compared reference limits are equivalent:
+
+1. **First-Level Analysis ~ Statistical Uncertainty**: Assesses the magnitude of statistical uncertainty in the reference limits.
+2. **Second-Level Analysis ~ Distance Criterion Based on Equivalence Testing**: Compares the LabRI-estimated reference limit with a comparative limit to evaluate practical significance.
+3. **Third-Level Analysis ~ Concordance Evaluation**: Evaluates concordance using tests like Fleiss’ Kappa, Lin’s Concordance Correlation Coefficient, and Flagging Rates.
+
+### Details of the Three-Level Analysis
+
+- **First-Level Analysis**:
+  - Evaluates statistical uncertainty associated with reference limits. If uncertainty is within acceptable bounds, the analysis proceeds to the second level.
+
+- **Second-Level Analysis**:
+  - Compares the LabRI reference limit with a comparative reference limit using equivalence testing to assess practical significance.
+
+- **Third-Level Analysis**:
+  - Conducted if the second-level analysis suggests "Possible Equivalence" or "Probable Equivalence". This level incorporates confidence intervals and uses Fleiss' Kappa, Lin's Concordance Correlation Coefficient, and Flagging Rates to ensure robust verification.
+
+---
+
+This structured approach allows the LabRI Tool to provide accurate, validated reference intervals, supporting clinical decision-making with confidence.
