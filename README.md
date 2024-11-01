@@ -1,6 +1,8 @@
 # LabRI Tool
 
-<img src="www/Logo.svg" width="225px" height="150px" align="right"/>
+<img src="www/Logo.svg" width="350px" height="250px" align="right"/>
+
+
 
 ## Introduction
 
@@ -48,5 +50,3 @@ The **Verification Module** performs a **three-level analysis** to assess whethe
   - Conducted if the second-level analysis suggests "Possible Equivalence" or "Probable Equivalence". This level incorporates confidence intervals and uses Fleiss' Kappa, Lin's Concordance Correlation Coefficient, and Flagging Rates to ensure robust verification.
 
 ---
-
-This structured approach allows the LabRI Tool to provide accurate, validated reference intervals, supporting clinical decision-making with confidence.
