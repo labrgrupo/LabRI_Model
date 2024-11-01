@@ -4,7 +4,7 @@
 
 <img src="www/Logo.svg" width="350px" height="250px" align="right"/>
 
-The **LabRI Tool** is an RMarkdown-based application designed to streamline the estimation and verification of reference intervals in clinical laboratories. It leverages the **LabRI method**, a comprehensive approach structured into two main modules:
+The **LabRI Tool** is an RMarkdown-based tool designed for the estimation and verification of reference intervals in clinical laboratories. This tool, included in the **LabRI package** (a zipped folder with all necessary files and resources), incorporates the **LabRI method**, which is structured into two main modules:
 
 - **Estimation Module**: Focuses on the adaptive and multi-criteria estimation of reference intervals using data cleaning, transformation, and clustering techniques, supported by algorithms like `refineR`, `reflimR`, and Expectation-Maximization (EM).
   
