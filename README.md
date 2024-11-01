@@ -1,5 +1,8 @@
 # LabRI Tool
 
+![](https://img.shields.io/github/license/labrgrupo/LabRI_Tool.svg)
+![](https://img.shields.io/github/last-commit/labrgrupo/LabRI_Tool/master.svg)
+
 ## Introduction
 
 <img src="www/Logo.svg" width="350px" height="250px" align="right"/>
