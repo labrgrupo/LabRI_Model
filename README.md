@@ -61,3 +61,14 @@ A tutorial for installing the necessary resources and using the tool can be foun
 </div>
 
 ---
+
+## Contact
+
+You are welcome to:
+
+Submit suggestions and Bugs at: https://github.com/labrgrupo/LabRI_Tool/issues
+
+Write an Email with any questions and problems to: alancdias@hotmail.com
+
+Link to the publication: 
+
