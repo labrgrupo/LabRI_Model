@@ -48,3 +48,7 @@ The **Verification Module** performs a **three-level analysis** to assess whethe
   - Conducted if the second-level analysis suggests "Possible Equivalence" or "Probable Equivalence". This level incorporates confidence intervals and uses Fleiss' Kappa, Lin's Concordance Correlation Coefficient, and Flagging Rates to ensure robust verification.
 
 ---
+
+A tutorial for installing the necessary resources and using the tool can be found on the **Grupo Lab R website** at https://grupolabr.com/LabRI_Packed.html.
+
+---
