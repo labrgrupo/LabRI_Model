@@ -49,6 +49,11 @@ The **Verification Module** performs a **three-level analysis** to assess whethe
 
 ---
 
-A tutorial for installing the necessary resources and using the tool can be found on the **Grupo Lab R website** at https://grupolabr.com/LabRI_Packed.html.
+A tutorial for installing the necessary resources and using the tool can be found on the **Grupo Lab R website**:
+
+<div> 
+  <a href="https://grupolabr.com/LabRI_Packed.html" target="_blank">
+    <img src="https://img.shields.io/badge/Website Grupo Lab R - Tutorial -%233ccd96?style=for-the-badge&logo=google-chrome&logoColor=%230d02b4&labelColor=%23fee21d" target="_blank" style="height: 50px;"></a> 
+</div>
 
 ---
