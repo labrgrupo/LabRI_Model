@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report.
+name: LabRI Tool Bug Report
+description: Thank you for helping us improve the LabRI tool. To begin, please click the "Get started" button and provide the details below to help us understand and resolve the issue.
 title: "[Bug - LabRI method]: "
 labels: ["bug"]
 projects: ["LabRI method"]
