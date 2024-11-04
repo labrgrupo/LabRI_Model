@@ -4,7 +4,7 @@ title: "[Bug - LabRI method]: "
 labels: ["bug"]
 projects: ["LabRI method"]
 assignees:
-  - octocat
+  - Lab R Group
 body:
   - type: markdown
     attributes:
