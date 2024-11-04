@@ -39,7 +39,9 @@ To ensure reliability in clinical practice, it is crucial for laboratories to ve
 The **Verification Module** performs a **three-level analysis** to assess whether the compared reference limits are equivalent:
 
 1. **First-Level Analysis ~ Statistical Uncertainty**: Assesses the magnitude of statistical uncertainty in the reference limits.
+   
 2. **Second-Level Analysis ~ Distance Criterion Based on Equivalence Testing**: Compares the LabRI-estimated reference limit with a comparative limit to evaluate practical significance.
+   
 3. **Third-Level Analysis ~ Concordance Evaluation**: Evaluates concordance using tests like Fleiss’ Kappa, Lin’s Concordance Correlation Coefficient, and Flagging Rates.
 
 ### Details of the Three-Level Analysis
