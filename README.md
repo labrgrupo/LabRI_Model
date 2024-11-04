@@ -22,8 +22,8 @@ The **LabRI method** provides an adaptive and multi-criteria approach for the **
 
 - **Adaptive**: 
   - Adjusts dynamically based on data structure and characteristics, applying appropriate cleaning and transformation techniques.
-  - Uses the **Centroid of Windsorized Reference Limits** method with `refineR` and `reflimR` for multi-cluster distributions.
-  - For single-cluster distributions, the EM algorithm applies parametric and non-parametric methods to derive the best reference interval estimate.
+  - For **multi-cluster distributions**, the Centroid of Windsorized Reference Limits method with `refineR` and `reflimR` is used, assessing whether the clusters have acceptable distances from each other. If the clusters are sufficiently distant, the EM algorithm is also applied alongside `refineR` and `reflimR` to derive the best reference interval estimate.
+  - For **single-cluster distributions**, the EM algorithm applies parametric and non-parametric methods to derive the best reference interval estimate.
 
 - **Multi-criteria**:
   - Incorporates multiple criteria and methods for robust and comprehensive estimation and verification of reference intervals.
