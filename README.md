@@ -57,7 +57,7 @@ The **Verification Module** performs a **three-level analysis** to assess whethe
 
 ---
 
-A tutorial for installing the necessary resources and using the tool can be found on the **Grupo Lab R website**:
+A simple usage tutorial, covering the installation of R and RStudio and instructions for using the Shiny tool, can be found on the **Grupo Lab R website**:
 
 <div> 
   <a href="https://grupolabr.com/LabRI_Packed.html" target="_blank">
