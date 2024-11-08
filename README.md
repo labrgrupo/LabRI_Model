@@ -72,7 +72,7 @@ You are welcome to:
 
 Submit suggestions and Bugs at: https://github.com/labrgrupo/LabRI_Tool/issues
 
-Write an Email with any questions and problems to: alancdias@hotmail.com
+Write an Email with any questions and problems to: alancdias@hotmail.com or labrgrupo@gmail.com
 
 Link to the publication: 
 
