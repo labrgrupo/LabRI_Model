@@ -8,9 +8,9 @@
 
 The **LabRI System** is a Shiny-based application designed for the estimation and verification of reference intervals in clinical laboratories. It combines RMarkdown scripts, Shiny applications, and automation scripts (.bat) to streamline its use without requiring direct interaction with RStudio. The system's key components include
 
-- **install_packages.bat**: Executes the `install_packages.R` script, automating the installation and updating of all required R packages to configure the environment properly.
-- **app.bat**: Executes the `launch_app.R` script, which initializes the Shiny application and opens the graphical interface for running the LabRI method interactively.
-- **LabRI_script.Rmd**: The primary script responsible for estimating and verifying reference intervals, producing comprehensive HTML reports.
+- **install_packages.bat**:  Triggered by the shortcut `LabRI Package Installer`, this file executes the `install_packages.R` script, automating the installation and updating of the required R packages to properly configure the environment.
+- **app.bat**: Triggered by the shortcut `LabRI`, this file executes the `launch_app.R` script, initializing the Shiny application and opening the interactive graphical interface to run the LabRI_script.Rmd, which implements the LabRI method.
+- **LabRI_script.Rmd**: The primary script that implements the `LabRI method`, responsible for estimating and verifying reference intervals, and producing comprehensive HTML reports.
 
 The **LabRI System** is distributed primarily as an executable installer, which organizes files, configures directories, and creates desktop shortcuts for easy access. As the installer relies on .bat files for automation, it is only compatible with the Windows operating system. The executable can be downloaded using the link below:
 <div> 
