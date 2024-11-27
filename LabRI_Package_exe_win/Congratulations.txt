@@ -1,0 +1,1 @@
+Congratulations! LabRI has been successfully installed and is ready to use. Please ensure that both R and RStudio are already installed on your system.
