@@ -14,7 +14,7 @@ The **LabRI System** is a Shiny-based application designed for the estimation an
 
 The **LabRI System** is distributed primarily as an executable installer, which organizes files, configures directories, and creates desktop shortcuts for easy access. As the installer relies on .bat files for automation, it is only compatible with the Windows operating system. The executable can be downloaded using the link below:
 <div> 
-  <a href="https://www.dropbox.com/scl/fi/xguexxtk7ffu3t2gmk1ip/LabRI_3.3.0.exe?rlkey=8t2j951py9hgika2jwm6vhvsl&st=mh5gdb71&dl=1" target="_blank">
+  <a href="https://www.dropbox.com/scl/fi/vd78pcgqpzxaf9djkmzg6/LabRI_3.3.0.exe?rlkey=smpbncsad5naymac3xsv0a2pd&st=7nkfyi78&dl=1" target="_blank">
     <img src="https://img.shields.io/badge/LabRI Installer -%233ccd96?style=for-the-badge&logo=google-chrome&logoColor=%230d02b4&labelColor=%23fee21d" target="_blank" style="height: 50px;"></a> 
 </div>
 
