@@ -4,8 +4,6 @@
 ![](https://img.shields.io/github/last-commit/labrgrupo/LabRI_Tool/main.svg)
 
 
-## Introduction
-
 <img src="www/Logo.svg" width="350px" height="250px" align="right"/>
 
 The **LabRI System** is a Shiny-based application designed for the estimation and verification of reference intervals in clinical laboratories. It combines RMarkdown scripts, Shiny applications, and automation scripts (.bat) to streamline its use without requiring direct interaction with RStudio. The system's key components include
