@@ -8,7 +8,23 @@
 
 <img src="www/Logo.svg" width="350px" height="250px" align="right"/>
 
-The **LabRI Tool** is a Shiny-based application developed for the estimation and verification of reference intervals in clinical laboratories.. This tool, included in the **LabRI package** (a zipped folder with all necessary files and resources), incorporates the **LabRI method**, which is structured into two main modules:
+The **LabRI System** is a Shiny-based application designed for the estimation and verification of reference intervals in clinical laboratories. It combines RMarkdown scripts, Shiny applications, and automation scripts (.bat) to streamline its use without requiring direct interaction with RStudio. The system's key components include
+- **LabRI_script.Rmd**: The primary script responsible for estimating and verifying reference intervals, producing comprehensive HTML reports.
+- **install_packages.bat**: Ensures the proper configuration of the environment by automating the installation and updating of required R packages.
+- **app.bat**: Launches the Shiny application, providing a user-friendly graphical interface for running the LabRI method.
+
+The **LabRI System** is distributed primarily as an executable installer that organizes files, configures directories, and creates desktop shortcuts for easy access. It can be downloaded from the:
+
+<div> 
+  <a href="https://www.dropbox.com/scl/fi/xguexxtk7ffu3t2gmk1ip/LabRI_3.3.0.exe?rlkey=8t2j951py9hgika2jwm6vhvsl&st=mh5gdb71&dl=1" target="_blank">
+    <img src="https://img.shields.io/badge/LabRI Installer -%233ccd96?style=for-the-badge&logo=google-chrome&logoColor=%230d02b4&labelColor=%23fee21d" target="_blank" style="height: 50px;"></a> 
+</div>
+
+<br>
+
+The **LabRI Method** is a core component of the **LabRI System**, serving as the analytical backbone for the estimation and verification of reference intervals in laboratory data. It comprises a set of algorithms, sub-algorithms, and mathematical procedures, implemented primarily in the **LabRI_script.Rmd file**.
+
+**The LabRI Method is structured into two main modules:**
 
 - **Estimation Module**: Focuses on adaptive, multi-criteria estimation of reference intervals through data cleaning, transformation, and clustering techniques, utilizing algorithms such as `refineR` and `reflimR`, available in the R packages `refineR` and `reflimR`, respectively, along with the Expectation-Maximization (EM) algorithm, supported by packages like `mclust` and `mixR`.
   
