@@ -13,7 +13,7 @@ The **LabRI System** is a Shiny-based application designed for the estimation an
 - **install_packages.bat**: Ensures the proper configuration of the environment by automating the installation and updating of required R packages.
 - **app.bat**: Launches the Shiny application, providing a user-friendly graphical interface for running the LabRI method.
 
-The **LabRI System** is distributed primarily as an executable installer that organizes files, configures directories, and creates desktop shortcuts for easy access. It can be downloaded from the:
+The **LabRI System** is distributed primarily as an executable installer that organizes files, configures directories, and creates desktop shortcuts for easy access. It can be downloaded by clicking the button below:
 
 <div> 
   <a href="https://www.dropbox.com/scl/fi/xguexxtk7ffu3t2gmk1ip/LabRI_3.3.0.exe?rlkey=8t2j951py9hgika2jwm6vhvsl&st=mh5gdb71&dl=1" target="_blank">
