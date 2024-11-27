@@ -74,7 +74,7 @@ A simple usage tutorial, covering the installation of R and RStudio and instruct
 
 <div> 
   <a href="https://grupolabr.com/LabRI_Packed.html" target="_blank">
-    <img src="https://img.shields.io/badge/Website Lab R Group - Tutorial -%233ccd96?style=for-the-badge&logo=google-chrome&logoColor=%230d02b4&labelColor=%23fee21d" target="_blank" style="height: 50px;"></a> 
+    <img src="https://img.shields.io/badge/LabRI Tutorial -%233ccd96?style=for-the-badge&logo=google-chrome&logoColor=%230d02b4&labelColor=%23fee21d" target="_blank" style="height: 50px;"></a> 
 </div>
 
 ---
