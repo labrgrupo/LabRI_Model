@@ -33,7 +33,8 @@ body:
       label: Version
       description: Which version of the LabRI tool are you currently using?
       options:
-        - 2.1
+        - 2.3 (Rmarkdown)
+        - 3.3 (Shiny)
       default: 0
     validations:
       required: true
