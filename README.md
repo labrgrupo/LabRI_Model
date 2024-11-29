@@ -14,7 +14,7 @@ The **LabRI System** is a Shiny-based application designed for the estimation an
 
 The image above provides an example of the initial interface of the **LabRI Shiny Application**, demonstrating how users configure essential parameters for data analysis. The "Name of the Responsible Specialist" section captures the analyst's name, while the "Define the Dataset" section allows users to upload a .csv, .xls, or .xlsx file and select the relevant data column. A status bar indicates the system's progress during processing. This streamlined interface ensures intuitive navigation and efficient setup for reference interval estimation and verification.
 
-<img src="www/Interface_Shiny.png" width="1000px" height="500px"/>
+<img src="www/Interface_Shiny.png" width="900px" height="450px"/>
 
 The **LabRI System** is distributed primarily as an executable installer, which organizes files, configures directories, and creates desktop shortcuts for easy access. As the installer relies on .bat files for automation, it is only compatible with the Windows operating system. The executable can be downloaded using the link below:
 <div> 
