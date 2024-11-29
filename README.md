@@ -12,6 +12,10 @@ The **LabRI System** is a Shiny-based application designed for the estimation an
 - **app.bat**: Triggered by the shortcut `LabRI`, this file executes the `launch_app.R` script, initializing the Shiny application and opening the interactive graphical interface to run the LabRI_script.Rmd, which implements the LabRI method.
 - **LabRI_script.Rmd**: The primary script that implements the `LabRI method`, responsible for estimating and verifying reference intervals, and producing comprehensive HTML reports.
 
+The image above provides an example of the initial interface of the **LabRI Shiny Application**, demonstrating how users configure essential parameters for data analysis. The "Name of the Responsible Specialist" section captures the analyst's name, while the "Define the Dataset" section allows users to upload a .csv, .xls, or .xlsx file and select the relevant data column. A status bar indicates the system's progress during processing. This streamlined interface ensures intuitive navigation and efficient setup for reference interval estimation and verification.
+
+<img src="www/Interface_Shiny.png" width="1000px" height="500px"/>
+
 The **LabRI System** is distributed primarily as an executable installer, which organizes files, configures directories, and creates desktop shortcuts for easy access. As the installer relies on .bat files for automation, it is only compatible with the Windows operating system. The executable can be downloaded using the link below:
 <div> 
   <a href="https://www.dropbox.com/scl/fi/fr7wvdk5k6jz4uuyb2wnz/LabRI_3.3.0.exe?rlkey=81yk1j95tcqobpkd8z5knm7kq&st=lrvewhuz&dl=1" target="_blank">
