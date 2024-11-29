@@ -33,8 +33,9 @@ body:
       label: Version
       description: Which version of the LabRI tool are you currently using?
       options:
-        - 2.3 (Rmarkdown)
-        - 3.3 (Shiny)
+        - LabRI Shiny Aplication (3.3.0)
+        - LabRI Shiny Installer (3.3.0)
+        - LabRI Rmarkdown (2.3.0)
       default: 0
     validations:
       required: true
