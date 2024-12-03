@@ -18,7 +18,7 @@ The image above provides an example of the initial interface of the **LabRI Shin
 
 The **LabRI System** is distributed primarily as an executable installer, which organizes files, configures directories, and creates desktop shortcuts for easy access. As the installer relies on .bat files for automation, it is only compatible with the Windows operating system. The executable can be downloaded using the link below:
 <div> 
-  <a href="https://www.dropbox.com/scl/fi/su1n2cziqx76en414obe1/LabRI_3.3.0.exe?rlkey=bi2ux8r385g701xlqn6auh8j7&st=0gvjmdxu&dl=1" target="_blank">
+  <a href="https://www.dropbox.com/scl/fi/su1n2cziqx76en414obe1/LabRI_3.3.0.exe?rlkey=bi2ux8r385g701xlqn6auh8j7&st=b1rkitvc&dl=1" target="_blank">
     <img src="https://img.shields.io/badge/LabRI Installer -%233ccd96?style=for-the-badge&logo=google-chrome&logoColor=%230d02b4&labelColor=%23fee21d" target="_blank" style="height: 50px;"></a> 
 </div>
 
